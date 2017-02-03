@@ -1,0 +1,9 @@
+setTimeout(function(){
+    console.log("setTimeout执行");
+});
+setImmediate(function(){
+    console.log("setImmediate执行");
+});
+process.nextTick(function(){
+    console.log("process.nextTick执行");
+})
